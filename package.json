@@ -1,0 +1,11 @@
+{
+  "name": "helloWorldNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KirillCherkalov/hello-world-node",
+  "author": "KirillCherkalov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
