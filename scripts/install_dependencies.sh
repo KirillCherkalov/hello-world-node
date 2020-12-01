@@ -1,16 +1,10 @@
 #!/bin/bash
-# update yum just in case
-yum update -y
-yum install ruby -y
-yum install wget -y
-# get nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-export NVM_DIR="/.nvm"
-[ -s "/.nvm/nvm.sh" ] && \. "/.nvm/nvm.sh"
-nvm install 14.15.1
-nvm use 14.15.1
-# check node and npm version
-node -v
-npm -v
-# install yarn
-curl -o- -L https://yarnpkg.com/install.sh | bash
+sudo apt-get update 
+sudo apt-get upgrade -y
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+nvm --version
+nvm install --lts
+node --version
