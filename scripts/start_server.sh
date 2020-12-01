@@ -1,4 +1,4 @@
 #!/bin/bash
 ​
 cd /var/www/helloWorld
-node index.js
+pm2 start index.js

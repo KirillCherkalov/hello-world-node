@@ -8,3 +8,4 @@ export NVM_DIR="$HOME/.nvm"
 nvm --version
 nvm install --lts
 node --version
+sudo npm install pm2@latest -g
