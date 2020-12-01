@@ -12,5 +12,3 @@ node -v
 npm -v
 # install yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash
-cd /var/www/helloWorld
-yarn
