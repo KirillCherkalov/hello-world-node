@@ -10,4 +10,4 @@ nvm install --lts
 node --version
 npm install npm@latest -g
 npm -v
-sudo npm install pm2@latest -g
+npm install pm2@latest -g
