@@ -1,2 +1,2 @@
 cd /var/www/helloWorld
-yarn start
+node index.js
